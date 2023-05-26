@@ -1,10 +1,11 @@
 import React from 'react'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import Admin from '../assets/emine.jpg'
+import { Link } from 'react-scroll'
 
 const Home = () => {
     return (
-        <div className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
+        <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-3/5 text-white'>
                     <h2 className='text-4xl font-bold sm:text-6xl'>I'm React and React Native Developer</h2>
@@ -17,16 +18,17 @@ const Home = () => {
                         and make life easier.
                     </p>
                     <div>
-                        <button
-                         className='flex group text-white w-fit px-6 py-3 my-2 rounded-md
+                        <Link to="portfolio" smooth duration={500}>
+                            <button
+                                className='flex group text-white w-fit px-6 py-3 my-2 rounded-md
                         items-center hover:scale-105
                          bg-gradient-to-r from-[#0033cc] to-[#6666ff]
                          '>
-                            Portfolio
-                            <span className='ml-3 group-hover:rotate-90 duration-300'>
-                                <MdOutlineKeyboardArrowRight size={30} />
-                            </span>
-                        </button>
+                                Portfolio
+                                <span className='ml-3 group-hover:rotate-90 duration-300'>
+                                    <MdOutlineKeyboardArrowRight size={30} />
+                                </span>
+                            </button></Link>
 
                     </div>
                 </div>
