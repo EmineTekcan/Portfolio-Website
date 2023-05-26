@@ -10,7 +10,11 @@ const Contact = () => {
                 </div>
 
                 <div>
-                    <form className='flex flex-col gap-3' action="/form-submit" method="POST">
+                    <form
+                        className='flex flex-col gap-3'
+                        action="https://getform.io/f/70fef039-44fa-4030-b3db-cd70dfc3ebee"
+                        method="POST"
+                    >
                         <input
                             type="text"
                             name="name"
@@ -29,8 +33,9 @@ const Contact = () => {
                             placeholder='Enter your message'
                             className='w-full h-40 bg-transparent rounded-md md:h-52 p-2 border-2'
                         />
-                        <button 
-                        className='bg-gradient-to-r from-[#0033cc] to-[#6666ff] w-2/4 self-center h-10 rounded-md mb-2 md:h-14'
+                        <button
+                            type="submit"
+                            className='bg-gradient-to-r from-[#0033cc] to-[#6666ff] w-2/4 self-center h-10 rounded-md mb-2 md:h-14'
                         >
                             Lets Talk
                         </button>
