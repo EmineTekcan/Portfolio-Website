@@ -1,6 +1,4 @@
 import React from 'react'
-import resim from '../assets/emine.jpg'
-import arrayDestruct from '../assets/arrayDestruct.jpg'
 import gotravel from '../assets/gotravel.png'
 import scrape from '../assets/scrape.jpg'
 import istatiksel from '../assets/istatiksel.png'
@@ -59,8 +57,8 @@ const Portfolio = () => {
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg scale-80'>
                             <img className='rounded-md duration-200 hover:scale-105 w-full h-40 self-center' alt='' src={src} />
                             <div className='flex flex-row justify-around items-center'>
-                                <a href='https://expo.dev/accounts/eminetekcan/projects/go-travel/builds/30b34bb4-ea9f-4813-ad3b-9172e38a0eb3'><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button></a>
-                                <a target='_blank' href={link}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
+                                <a rel="noreferrer" href='https://expo.dev/accounts/eminetekcan/projects/go-travel/builds/30b34bb4-ea9f-4813-ad3b-9172e38a0eb3'><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button></a>
+                                <a rel="noreferrer" target='_blank' href={link}><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Contact = () => {
+    
     return (
         <div name="contact" className='bg-gradient-to-b from-black to-gray-800 w-full md:h-screen'>
             <div className='max-w-screen-lg w-full text-white flex flex-col m-auto px-4 md:py-24'>
