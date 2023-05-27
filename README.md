@@ -1,16 +1,3 @@
-![alt text](resimler\1.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
