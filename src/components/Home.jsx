@@ -9,7 +9,7 @@ const Home = () => {
         <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
                 <div className='flex flex-col justify-center h-3/5 text-white'>
-                    <h2 className='text-4xl font-bold sm:text-6xl'>I'm React and React Native Developer</h2>
+                    <h2 className='text-4xl font-bold sm:text-6xl'>I'm Software Developer</h2>
                     <p className='text-gray-500 py-4 max-w-md'>
                         Currently working mostly with React Native to
                         build mobile apps. I am more focused in back-end
