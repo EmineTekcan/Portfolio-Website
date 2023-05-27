@@ -1,7 +1,11 @@
 ![alt text](/resimler/1.PNG)
-
-
-
+![alt text](/resimler/2.PNG)
+![alt text](/resimler/3.PNG)
+![alt text](/resimler/4.PNG)
+![alt text](/resimler/5.PNG)
+![alt text](/resimler/6.PNG)
+![alt text](/resimler/7.PNG)
+![alt text](/resimler/8.PNG)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
